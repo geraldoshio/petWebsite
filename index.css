@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    height: 60px;
+    content: '';
+}
+#intro {
+    background-image: url("./images/dog1.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80vh;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+.mx-1{
+    text-align: left;
+}
